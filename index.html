@@ -5,17 +5,40 @@
 		<title>Team Medellin, Assignment 3</title>
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/navigation.css" rel="stylesheet">
-		<link rel="stylesheet" href="sss/sss.css">
-		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-		<!-- Add two fontsyles that adds a contrast for the h1. h2, h3 and the body text  -->
+		<!-- Add links for a bootstrap navigation.css -->
+		<!-- Add links for a bootstrap slider.css -->
+		<!-- Add two links fontsyles that adds a contrast for the h1. h2, h3 and the body text  -->
 
 	</head>
 	<body>
-	<article>
-	<!-- create a header that includes the nav element -->
+	<!-- create a header that includes the Title and nav element -->
+	<!-- Include navigation bar -->
+	 <div class="header">
+  		<header>
+    		<h1>TEAM Medellin</h1>
+    		<span>CSC 174 Assignment 3</span>
+  		</header>
+
+	<!-- Navigation bar -->
+
+		<nav class="nav">
+		    <div>
+		      <ul>
+		        <li><a href="index.php">Home</a></li>
+		        <li><a href="casey.php">Casey</a></li>
+		        <li><a href="irfan.php">Irfan</a></li>
+		        <li><a href="jimmy.php">Jimmy</a></li>
+		      </ul>
+		    </div>
+		</nav>
+
+	<!-- End of Navigation bar -->
+
 		<?php include "includes/navigation.php" ?>
-		<hr>
+
+		<!-- create a slideshow that is constantly showing the picture of the students-->
 		<div class="container">
+			
 			<div class="slideshow">
 				<div class="slider">
 				 	<img src="images/casey.jpg" alt="Casey">
@@ -24,7 +47,9 @@
 				</div><!--.slider-->
 			</div><!--.slideshow-->
 			
-			<h2>Casey A. Brentnall.</h2>
+			<article>
+			
+			<h2>Casey A. Brentnall</h2>
 
 			<h3>Introduction</h3>
 			<p>Hello! My name is Casey Adam Brentnall. I am a sophomore, and my major is computer science. 
@@ -43,25 +68,19 @@
 			<h3>Introduction</h3>
 			<p>Hello! My name is Jimmy Yang. I am a sophomore and I am double majoring in Economics 
 			and Global Perspectives History. I am from a quaint small town called Fargo, ND.</p>
-			<!-- Add a read more botton tag that leads to Irfan's page -->
+			<!-- Add a read more botton tag that leads to Jimmy's page -->
 
-
-
-
-
-
+			</article>
 	
-			
 		</div><!--.container-->
 
 		</article>
 		
 		<footer>
-<hr>
-		<strong>Team Medellín
-		<br>
-		CSC 174: Advanced Web Design </strong>
-	</footer>
+
+		<p>Page created by Team Medellín <p>
+		
+		</footer>
 	</body>
 
 	
